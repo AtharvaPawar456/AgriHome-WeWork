@@ -8,4 +8,3 @@ pip uninstall -r requirements.txt
 
 
 Website Deployed...
-https://atharvapawar456-movie-recommendation-system-using-ml-app-rkkwqc.streamlit.app/
