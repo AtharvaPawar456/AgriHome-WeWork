@@ -1,0 +1,120 @@
+<div>
+
+    <!-- section 1  -->
+    <h4 id="section1" class="font-bold mt-12 pb-2 border-b border-gray-200  text-blue-600 text-2xl">Seeds and Plant Materials</h4>
+    <div class="mt-8 grid lg:grid-cols-4 gap-10">
+      <!-- Cards goes here -->
+      {% for element in carddata[2] %}
+      <a href="/singleproduct?productslug={{  element[5] }}">
+        <div class="bg-white relative hover:shadow-lg">
+          <div class="max-w-sm rounded overflow-hidden shadow-md">
+            <img class="w-full h-auto transition-transform duration-300 transform hover:scale-110" src="{{ url_for('static', filename= element[2]) }}" alt="Image">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">{{ element[1] }}</div>
+              <p class="text-gray-700 text-base">MRP: {{  element[4] }}</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+
+    <!-- section 2  -->
+    <h4 id="section2" class="font-bold mt-12 pb-2 border-b border-gray-200  text-blue-600 text-2xl">Gardening Supplies</h4>
+    <div class="mt-8 grid lg:grid-cols-4 gap-10">
+      <!-- Cards goes here -->
+      {% for element in carddata[0] %}
+      <a href="/singleproduct?productslug={{  element[5] }}">
+        <div class="bg-white relative hover:shadow-lg">
+          <div class="max-w-sm rounded overflow-hidden shadow-md">
+            <img class="w-full h-auto transition-transform duration-300 transform hover:scale-110" src="{{ url_for('static', filename= element[2]) }}" alt="Image">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">{{ element[1] }}</div>
+              <p class="text-gray-700 text-base">MRP: {{  element[4] }}</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+
+    </div>
+
+    <!-- section 3  -->
+    <h4 id="section3" class="font-bold mt-12 pb-2 border-b border-gray-200  text-blue-600 text-2xl">Farming Equipment</h4>
+    <div class="mt-8 grid lg:grid-cols-4 gap-10">
+      <!-- Cards goes here -->
+      {% for element in carddata[1] %}
+      <a href="/singleproduct?productslug={{  element[5] }}">
+        <div class="bg-white relative hover:shadow-lg">
+          <div class="max-w-sm rounded overflow-hidden shadow-md">
+            <img class="w-full h-auto transition-transform duration-300 transform hover:scale-110" src="{{ url_for('static', filename= element[2]) }}" alt="Image">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">{{ element[1] }}</div>
+              <p class="text-gray-700 text-base">MRP: {{  element[4] }}</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+
+    <!-- section 4  -->
+    <h4 id="section4" class="font-bold mt-12 pb-2 border-b border-gray-200  text-blue-600 text-2xl">Farming Equipment</h4>
+    <div class="mt-8 grid lg:grid-cols-4 gap-10">
+      <!-- Cards goes here -->
+      {% for element in carddata[1] %}
+      <a href="/singleproduct?productslug={{  element[5] }}">
+        <div class="bg-white relative hover:shadow-lg">
+          <div class="max-w-sm rounded overflow-hidden shadow-md">
+            <img class="w-full h-auto transition-transform duration-300 transform hover:scale-110" src="{{ url_for('static', filename= element[2]) }}" alt="Image">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">{{ element[1] }}</div>
+              <p class="text-gray-700 text-base">MRP: {{  element[4] }}</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+
+    <!-- section 5  -->
+    <h4 id="section5" class="font-bold mt-12 pb-2 border-b border-gray-200  text-blue-600 text-2xl">Education and Resources</h4>
+    <div class="mt-8 grid lg:grid-cols-4 gap-10">
+      <!-- Cards goes here -->
+      {% for element in carddata[1] %}
+      <a href="/singleproduct?productslug={{  element[5] }}">
+        <div class="bg-white relative hover:shadow-lg">
+          <div class="max-w-sm rounded overflow-hidden shadow-md">
+            <img class="w-full h-auto transition-transform duration-300 transform hover:scale-110" src="{{ url_for('static', filename= element[2]) }}" alt="Image">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">{{ element[1] }}</div>
+              <p class="text-gray-700 text-base">MRP: {{  element[4] }}</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+
+    <!-- section 6  -->
+    <h4 id="section6" class="font-bold mt-12 pb-2 border-b border-gray-200  text-blue-600 text-2xl">Organic and Natural Products</h4>
+    <div class="mt-8 grid lg:grid-cols-4 gap-10">
+      <!-- Cards goes here -->
+      {% for element in carddata[1] %}
+      <a href="/singleproduct?productslug={{  element[5] }}">
+        <div class="bg-white relative hover:shadow-lg">
+          <div class="max-w-sm rounded overflow-hidden shadow-md">
+            <img class="w-full h-auto transition-transform duration-300 transform hover:scale-110" src="{{ url_for('static', filename= element[2]) }}" alt="Image">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">{{ element[1] }}</div>
+              <p class="text-gray-700 text-base">MRP: {{  element[4] }}</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+
+
+    <!-- all card ends -->
+    </div>

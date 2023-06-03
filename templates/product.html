@@ -1,0 +1,150 @@
+{% extends "layoutproduct.html" %} {% block body %}
+
+<section class="text-gray-600 body-font overflow-hidden">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="lg:w-4/5 mx-auto flex flex-wrap">
+      <!-- img should be 400x400 -->
+      <img
+        alt="item image"
+        class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded transition-transform duration-300 transform hover:scale-110"
+        src="{{ url_for('static', filename= data[2] ) }}"
+      />
+      <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-2 lg:mt-0">
+        <h2 class="text-sm title-font text-gray-800 tracking-widest">
+          {{ data[4] }}
+        </h2>
+        <div class="text-gray-900 text-5xl title-font font-medium mb-1">
+          {{ data[1] }}
+        </div>
+
+        <div class="text-2xl text-blue-600 mt-4"><span>Price:</span></div>
+        <p class="leading-relaxed text-justify">{{ data[7] }}</p>
+
+        <div class="text-2xl text-blue-600 mt-2"><span>Qty:</span></div>
+        <p class="leading-relaxed text-justify">{{ data[8] }}</p>
+
+        <div class="text-2xl text-blue-600 mt-2"><span>Description:</span></div>
+        <p class="leading-relaxed text-justify mb-2">{{ data[9] }}</p>
+
+        <div class="flex py-8">
+          <!-- <span class="title-font font-medium text-2xl text-gray-900">Enjoy Product Video...</span> -->
+          <form action="/create-checkout-session" method="post">
+            <input type="hidden" name="data_9" value="{{ data[10] }}">
+            <button class="flex ml-auto font-bold text-red-600 bg-red-100 border-2 border-red-500 py-2 px-6 focus:outline-none hover:bg-red-200 rounded transition-transform duration-300 transform hover:scale-110 uppercase" id="checkout-button" type="submit">
+                Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- recommend -->
+    <div class="mt-8">
+      <div class="mt-8 grid lg:grid-cols-3 gap-10">
+        <!-- Cards goes here -->
+
+        <!-- profile - 1 -->
+        <a href="/singleproduct?productslug={{ data[11][5] }}">
+          <div class="bg-white relative hover:shadow-lg">
+            <div class="rounded overflow-hidden shadow-md text-center">
+              <img
+                class="w-1/2 h-1/2 mx-auto transition-transform duration-300 transform hover:scale-110"
+                src="{{ url_for('static', filename= data[11][2]) }}"
+                alt="Image"
+              />
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">{{ data[11][1] }}</div>
+                <p class="text-gray-700 text-base">{{ data[11][3] }}</p>
+              </div>
+              <div
+                class="bg-gray-300 text-gray-700 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  id="star-shape"
+                  class="w-5 inline-block"
+                >
+                  <path
+                    fill="#6563ff"
+                    d="M17.56248,21.55957a1.00275,1.00275,0,0,1-.46531-.11475L12,18.76514,6.90283,21.44482a1.00019,1.00019,0,0,1-1.45117-1.0542l.97363-5.67578-4.12353-4.019a1.00033,1.00033,0,0,1,.5542-1.706l5.69873-.82813L11.103,2.99805a1.04173,1.04173,0,0,1,1.79394,0l2.54834,5.16357,5.69873.82813a1.00033,1.00033,0,0,1,.5542,1.706l-4.12353,4.019.97363,5.67578a1,1,0,0,1-.98586,1.169Z"
+                  ></path>
+                </svg>
+                <span class="text-blue-700 mt-2">Recommended</span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- profile - 2 -->
+        <a href="/singleproduct?productslug={{ data[12][5] }}">
+          <div class="bg-white relative hover:shadow-lg">
+            <div class="rounded overflow-hidden shadow-md text-center">
+              <img
+                class="w-1/2 h-1/2 mx-auto transition-transform duration-300 transform hover:scale-110"
+                src="{{ url_for('static', filename= data[12][2]) }}"
+                alt="Image"
+              />
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">{{ data[12][1] }}</div>
+                <p class="text-gray-700 text-base">{{ data[12][3] }}</p>
+              </div>
+              <div
+                class="bg-gray-300 text-gray-700 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  id="star-shape"
+                  class="w-5 inline-block"
+                >
+                  <path
+                    fill="#6563ff"
+                    d="M17.56248,21.55957a1.00275,1.00275,0,0,1-.46531-.11475L12,18.76514,6.90283,21.44482a1.00019,1.00019,0,0,1-1.45117-1.0542l.97363-5.67578-4.12353-4.019a1.00033,1.00033,0,0,1,.5542-1.706l5.69873-.82813L11.103,2.99805a1.04173,1.04173,0,0,1,1.79394,0l2.54834,5.16357,5.69873.82813a1.00033,1.00033,0,0,1,.5542,1.706l-4.12353,4.019.97363,5.67578a1,1,0,0,1-.98586,1.169Z"
+                  ></path>
+                </svg>
+                <span class="text-blue-700 mt-2">Recommended</span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- profile - 3 -->
+        <a href="/singleproduct?productslug={{ data[13][5] }}">
+          <div class="bg-white relative hover:shadow-lg">
+            <div class="rounded overflow-hidden shadow-md text-center">
+              <img
+                class="w-1/2 h-1/2 mx-auto transition-transform duration-300 transform hover:scale-110"
+                src="{{ url_for('static', filename= data[13][2] ) }}"
+                alt="Image"
+              />
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">{{ data[13][1] }}</div>
+                <p class="text-gray-700 text-base">{{ data[13][3] }}</p>
+              </div>
+              <div
+                class="bg-gray-300 text-gray-700 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  id="star-shape"
+                  class="w-5 inline-block"
+                >
+                  <path
+                    fill="#6563ff"
+                    d="M17.56248,21.55957a1.00275,1.00275,0,0,1-.46531-.11475L12,18.76514,6.90283,21.44482a1.00019,1.00019,0,0,1-1.45117-1.0542l.97363-5.67578-4.12353-4.019a1.00033,1.00033,0,0,1,.5542-1.706l5.69873-.82813L11.103,2.99805a1.04173,1.04173,0,0,1,1.79394,0l2.54834,5.16357,5.69873.82813a1.00033,1.00033,0,0,1,.5542,1.706l-4.12353,4.019.97363,5.67578a1,1,0,0,1-.98586,1.169Z"
+                  ></path>
+                </svg>
+                <span class="text-blue-700 mt-2">Recommended</span>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- card end -->
+      </div>
+    </div>
+    <!-- page ends -->
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll to Section</title>
+  <style>
+    .navbar {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      padding: 0;
+    }
+
+    .section {
+      height: 400px;
+      background-color: #f0f0f0;
+      margin-bottom: 20px;
+    }
+  </style>
+  <script>
+    function scrollToSection(sectionId) {
+      const section = document.getElementById(sectionId);
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#section1" onclick="scrollToSection('section1')">Section 1</a></li>
+      <li><a href="#section2" onclick="scrollToSection('section2')">Section 2</a></li>
+      <li><a href="#section3" onclick="scrollToSection('section3')">Section 3</a></li>
+      <li><a href="#section4" onclick="scrollToSection('section4')">Section 4</a></li>
+      <li><a href="#section5" onclick="scrollToSection('section5')">Section 5</a></li>
+    </ul>
+  </nav>
+
+  <section id="section1" class="section">
+    <h2>Section 1</h2>
+    <p>This is the content of section 1.</p>
+  </section>
+
+  <section id="section2" class="section">
+    <h2>Section 2</h2>
+    <p>This is the content of section 2.</p>
+  </section>
+
+  <section id="section3" class="section">
+    <h2>Section 3</h2>
+    <p>This is the content of section 3.</p>
+  </section>
+
+  <section id="section4" class="section">
+    <h2>Section 4</h2>
+    <p>This is the content of section 4.</p>
+  </section>
+
+  <section id="section5" class="section">
+    <h2>Section 5</h2>
+    <p>This is the content of section 5.</p>
+  </section>
+</body>
+
+</html>

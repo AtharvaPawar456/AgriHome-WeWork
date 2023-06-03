@@ -1,0 +1,210 @@
+## categories for a home small-scale agriculture marketplace:
+
+
+# main categories:
+
+Seeds and Plant Materials
+Gardening Supplies
+
+Farming Equipment
+Organic and Natural Products
+Farming Services
+Education and Resources
+
+Livestock and Poultry
+
+eg:
+Vegetable seeds: review, price, sub-header:1 packet contains 100 seeds,special offers, prevoous sold 
+specs[  Seed type:Non-Hybrid,
+        PLANT: Determinate
+        FRUIT TYPE : Shape Is Oval
+        AVERAGE WEIGHT : 90-100 Gms
+        FIRST PICKING : After 65-70 Days From Transplanting.
+        SPECIFICATION : Tolerant To Bacterial Wilt And Leaf Curl, Performs Well Round The Year.]
+
+
+("item_name","item_img_name","item_category","item_sub_category","slug")
+
+
+("Tomato seeds","tomato-seeds.jpg"                  ,"Seeds and Plant Materials","Vegetable seeds","tomato-seeds"),
+("Carrot seeds","carrot-seeds.jpg"                  ,"Seeds and Plant Materials","Vegetable seeds","carrot-seeds"),
+("Lettuce seeds","lettuce-seeds.jpg"                ,"Seeds and Plant Materials","Vegetable seeds","lettuce-seeds"),
+("Cucumber seeds","cucumber-seeds.jpg"              ,"Seeds and Plant Materials","Vegetable seeds","cucumber-seeds"),
+("Bell pepper seeds","bell-pepper-seeds.jpg"        ,"Seeds and Plant Materials","Vegetable seeds","bell-pepper-seeds"),
+("Spinach seeds","spinach-seeds.jpg"                ,"Seeds and Plant Materials","Vegetable seeds","spinach-seeds"),
+("Zucchini seeds","zucchini-seeds.jpg"              ,"Seeds and Plant Materials","Vegetable seeds","zucchini-seeds"),
+("Beetroot seeds","beetroot-seeds.jpg"              ,"Seeds and Plant Materials","Vegetable seeds","beetroot-seeds"),
+("Radish seeds","radish-seeds.jpg"                  ,"Seeds and Plant Materials","Vegetable seeds","radish-seeds"),
+("Kale seeds","kale-seeds.jpg"                      ,"Seeds and Plant Materials","Vegetable seeds","kale-seeds"),
+    ("Radish seeds","radish-seeds.jpg"                  ,"Seeds and Plant Materials","Vegetable seeds","radish-seeds"),
+
+
+("Apple tree sapling","apple-tree-sapling.jpg"      ,"Seeds and Plant Materials","Fruit tree saplings","apple-tree-sapling"),
+("Orange tree sapling","orange-tree-sapling.jpg"    ,"Seeds and Plant Materials","Fruit tree saplings","orange-tree-sapling"),
+("Mango tree sapling","mango-tree-sapling.jpg"      ,"Seeds and Plant Materials","Fruit tree saplings","mango-tree-sapling"),
+("Peach tree sapling","peach-tree-sapling.jpg"      ,"Seeds and Plant Materials","Fruit tree saplings","peach-tree-sapling"),
+("Lemon tree sapling","lemon-tree-sapling.jpg"      ,"Seeds and Plant Materials","Fruit tree saplings","lemon-tree-sapling"),
+("Avocado tree sapling","avocado-tree-sapling.jpg"  ,"Seeds and Plant Materials","Fruit tree saplings","avocado-tree-sapling"),
+("Pear tree sapling","pear-tree-sapling.jpg"        ,"Seeds and Plant Materials","Fruit tree saplings","pear-tree-sapling"),
+("Cherry tree sapling","cherry-tree-sapling.jpg"    ,"Seeds and Plant Materials","Fruit tree saplings","cherry-tree-sapling"),
+("Plum tree sapling","plum-tree-sapling.jpg"        ,"Seeds and Plant Materials","Fruit tree saplings","plum-tree-sapling"),
+("Apricot tree sapling","apricot-tree-sapling.jpg"  ,"Seeds and Plant Materials","Fruit tree saplings","apricot-tree-sapling"),
+
+
+("Sunflower seeds", "sunflower-seeds.jpg", "Seeds and Plant Materials", "Flower seeds", "sunflower-seeds"),
+("Rose seeds", "rose-seeds.jpg", "Seeds and Plant Materials", "Flower seeds", "rose-seeds"),
+("Marigold seeds", "marigold-seeds.jpg", "Seeds and Plant Materials", "Flower seeds", "marigold-seeds"),
+("Lavender seeds", "lavender-seeds.jpg", "Seeds and Plant Materials", "Flower seeds", "lavender-seeds"),
+("Cosmos seeds", "cosmos-seeds.jpg", "Seeds and Plant Materials", "Flower seeds", "cosmos-seeds"),
+("Zinnia seeds", "zinnia-seeds.jpg", "Seeds and Plant Materials", "Flower seeds", "zinnia-seeds"),
+("Petunia seeds", "petunia-seeds.jpg", "Seeds and Plant Materials", "Flower seeds", "petunia-seeds"),
+("Dahlia seeds", "dahlia-seeds.jpg", "Seeds and Plant Materials", "Flower seeds", "dahlia-seeds"),
+("Pansy seeds", "pansy-seeds.jpg", "Seeds and Plant Materials", "Flower seeds", "pansy-seeds"),
+("Sweet pea seeds", "sweet-pea-seeds.jpg", "Seeds and Plant Materials", "Flower seeds", "sweet-pea-seeds")
+
+("Basil seeds", "basil-seeds.jpg", "Seeds and Plant Materials", "Herbs and spices", "basil-seeds"),
+("Mint seeds", "mint-seeds.jpg", "Seeds and Plant Materials", "Herbs and spices", "mint-seeds"),
+("Cilantro seeds", "cilantro-seeds.jpg", "Seeds and Plant Materials", "Herbs and spices", "cilantro-seeds"),
+("Thyme seeds", "thyme-seeds.jpg", "Seeds and Plant Materials", "Herbs and spices", "thyme-seeds"),
+("Oregano seeds", "oregano-seeds.jpg", "Seeds and Plant Materials", "Herbs and spices", "oregano-seeds"),
+("Parsley seeds", "parsley-seeds.jpg", "Seeds and Plant Materials", "Herbs and spices", "parsley-seeds"),
+("Dill seeds", "dill-seeds.jpg", "Seeds and Plant Materials", "Herbs and spices", "dill-seeds"),
+("Sage seeds", "sage-seeds.jpg", "Seeds and Plant Materials", "Herbs and spices", "sage-seeds"),
+("Rosemary seeds", "rosemary-seeds.jpg", "Seeds and Plant Materials", "Herbs and spices", "rosemary-seeds"),
+("Chives seeds", "chives-seeds.jpg", "Seeds and Plant Materials", "Herbs and spices", "chives-seeds"),
+
+("Tomato seedlings", "tomato-seedlings.jpg", "Seeds and Plant Materials", "Seedlings and young plants", "tomato-seedlings"),
+("Pepper seedlings", "pepper-seedlings.jpg", "Seeds and Plant Materials", "Seedlings and young plants", "pepper-seedlings"),
+("Herb seedlings", "herb-seedlings.jpg", "Seeds and Plant Materials", "Seedlings and young plants", "herb-seedlings"),
+("Strawberry plants", "strawberry-plants.jpg", "Seeds and Plant Materials", "Seedlings and young plants", "strawberry-plants"),
+("Cabbage seedlings", "cabbage-seedlings.jpg", "Seeds and Plant Materials", "Seedlings and young plants", "cabbage-seedlings"),
+("Eggplant seedlings", "eggplant-seedlings.jpg", "Seeds and Plant Materials", "Seedlings and young plants", "eggplant-seedlings"),
+("Lettuce seedlings", "lettuce-seedlings.jpg", "Seeds and Plant Materials", "Seedlings and young plants", "lettuce-seedlings"),
+("Kale seedlings", "kale-seedlings.jpg", "Seeds and Plant Materials", "Seedlings and young plants", "kale-seedlings"),
+("Broccoli seedlings", "broccoli-seedlings.jpg", "Seeds and Plant Materials", "Seedlings and young plants", "broccoli-seedlings"),
+("Flower seedlings", "flower-seedlings.jpg", "Seeds and Plant Materials", "Seedlings and young plants", "flower-seedlings"),
+
+
+## Seeds and Plant Materials:
+Vegetable seeds :
+Tomato seeds, Carrot seeds, Lettuce seeds, Cucumber seeds, Bell pepper seeds, Spinach seeds, Zucchini seeds, Beetroot seeds, Radish seeds, Kale seeds
+
+Fruit tree saplings:
+Apple tree sapling, Orange tree sapling, Mango tree sapling, Peach tree sapling, Lemon tree sapling, Avocado tree sapling, Pear tree sapling, Cherry tree sapling, Plum tree sapling, Apricot tree sapling
+
+
+Flower seeds:
+Sunflower seeds, Rose seeds, Marigold seeds, Lavender seeds, Cosmos seeds, Zinnia seeds, Petunia seeds, Dahlia seeds, Pansy seeds, Sweet pea seeds
+
+Herbs and spices:
+Basil seeds,Mint seeds,Cilantro seeds,Thyme seeds,Oregano seeds,Parsley seeds,Dill seeds,Sage seeds,Rosemary seeds,Chives seeds
+
+
+Seedlings and young plants:
+Tomato seedlings, Pepper seedlings, Herb seedlings (mixed varieties), Strawberry plants, Cabbage seedlings, Eggplant seedlings, Lettuce seedlings, Kale seedlings, Broccoli seedlings, Flower seedlings (mixed varieties)
+
+------------------------------------------------------------------
+
+("Potting soil mix", "potting-soil-mix.jpg", "Gardening Supplies", "Soil and compost", "potting-soil-mix"),
+("Organic compost", "organic-compost.jpg", "Gardening Supplies", "Soil and compost", "organic-compost"),
+("Seed starting mix", "seed-starting-mix.jpg", "Gardening Supplies", "Soil and compost", "seed-starting-mix"),
+("Vermiculite", "vermiculite.jpg", "Gardening Supplies", "Soil and compost", "vermiculite"),
+("Perlite", "perlite.jpg", "Gardening Supplies", "Soil and compost", "perlite"),
+("Coco coir", "coco-coir.jpg", "Gardening Supplies", "Soil and compost", "coco-coir"),
+
+("Organic vegetable fertilizer", "organic-vegetable-fertilizer.jpg", "Gardening Supplies", "Fertilizers and amendments", "organic-vegetable-fertilizer"),
+("Fish emulsion fertilizer", "fish-emulsion-fertilizer.jpg", "Gardening Supplies", "Fertilizers and amendments", "fish-emulsion-fertilizer"),
+("Bone meal", "bone-meal.jpg", "Gardening Supplies", "Fertilizers and amendments", "bone-meal"),
+("Blood meal", "blood-meal.jpg", "Gardening Supplies", "Fertilizers and amendments", "blood-meal"),
+("Epsom salt", "epsom-salt.jpg", "Gardening Supplies", "Fertilizers and amendments", "epsom-salt"),
+("Composted manure", "composted-manure.jpg", "Gardening Supplies", "Fertilizers and amendments", "composted-manure"),
+
+
+
+("Wood chips", "wood-chips.jpg", "Gardening Supplies", "Mulch and ground cover", "wood-chips"),
+("Straw mulch", "straw-mulch.jpg", "Gardening Supplies", "Mulch and ground cover", "straw-mulch"),
+("Cocoa bean hulls", "cocoa-bean-hulls.jpg", "Gardening Supplies", "Mulch and ground cover", "cocoa-bean-hulls"),
+("Rubber mulch", "rubber-mulch.jpg", "Gardening Supplies", "Mulch and ground cover", "rubber-mulch"),
+("Pine needles", "pine-needles.jpg", "Gardening Supplies", "Mulch and ground cover", "pine-needles"),
+("Ground cover fabric", "ground-cover-fabric.jpg", "Gardening Supplies", "Mulch and ground cover", "ground-cover-fabric"),
+
+("Plastic nursery pots", "plastic-nursery-pots.jpg", "Gardening Supplies", "Plant pots and containers", "plastic-nursery-pots"),
+("Ceramic plant pots", "ceramic-plant-pots.jpg", "Gardening Supplies", "Plant pots and containers", "ceramic-plant-pots"),
+("Hanging baskets", "hanging-baskets.jpg", "Gardening Supplies", "Plant pots and containers", "hanging-baskets"),
+("Window boxes", "window-boxes.jpg", "Gardening Supplies", "Plant pots and containers", "window-boxes"),
+("Grow bags", "grow-bags.jpg", "Gardening Supplies", "Plant pots and containers", "grow-bags"),
+("Self-watering planters", "self-watering-planters.jpg", "Gardening Supplies", "Plant pots and containers", "self-watering-planters"),
+
+
+("Gardening shovel", "gardening-shovel.jpg", "Gardening Supplies", "Garden tools", "gardening-shovel"),
+("Garden rake", "garden-rake.jpg", "Gardening Supplies", "Garden tools", "garden-rake"),
+("Pruning shears", "pruning-shears.jpg", "Gardening Supplies", "Garden tools", "pruning-shears"),
+("Hand trowel", "hand-trowel.jpg", "Gardening Supplies", "Garden tools", "hand-trowel"),
+("Garden hoe", "garden-hoe.jpg", "Gardening Supplies", "Garden tools", "garden-hoe"),
+("Garden gloves", "garden-gloves.jpg", "Gardening Supplies", "Garden tools", "garden-gloves"),
+
+("Drip irrigation kit", "drip-irrigation-kit.jpg", "Gardening Supplies", "Irrigation systems and supplies", "drip-irrigation-kit"),
+("Garden hose", "garden-hose.jpg", "Gardening Supplies", "Irrigation systems and supplies", "garden-hose"),
+("Sprinkler system", "sprinkler-system.jpg", "Gardening Supplies", "Irrigation systems and supplies", "sprinkler-system"),
+("Irrigation timer/controller", "irrigation-timer-controller.jpg", "Gardening Supplies", "Irrigation systems and supplies", "irrigation-timer-controller"),
+("Soaker hoses", "soaker-hoses.jpg", "Gardening Supplies", "Irrigation systems and supplies", "soaker-hoses"),
+("Watering cans", "watering-cans.jpg", "Gardening Supplies", "Irrigation systems and supplies", "watering-cans")
+
+
+## Gardening Supplies:
+Soil and compost
+Fertilizers and amendments
+Mulch and ground cover
+Plant pots and containers
+Garden tools (shovels, rakes, pruning shears, etc.)
+Irrigation systems and supplies
+
+
+==================================================================================================================
+
+
+## Livestock and Poultry:
+Chickens and ducks
+Rabbits and guinea pigs
+Bees and beekeeping supplies
+Fish (aquaponics)
+Livestock feed and supplements
+
+## Farming Equipment:
+Hand tools (hoes, trowels, etc.)
+Power tools (rototillers, chainsaws, etc.)
+Tractors and attachments
+Harvesting equipment (scythes, sickles, etc.)
+Greenhouse supplies
+
+## Organic and Natural Products:
+Organic fertilizers and pesticides
+Natural pest control solutions
+Organic gardening books and resources
+Composting bins and supplies
+Sustainable packaging materials
+
+
+
+Farming Services:
+Land preparation and tilling services
+Soil testing and analysis
+Planting and transplanting services
+Garden maintenance and landscaping
+Livestock care and management
+
+Education and Resources:
+Books and guides on gardening and farming
+Online courses and workshops
+Educational materials for children
+Farming magazines and publications
+Agricultural consulting services
+
+-------------------------------------------------
+
+Food Processing and Preservation:
+Canning and preserving supplies
+Food dehydrators
+Fermentation equipment
+Juicers and blenders
+Food storage containers

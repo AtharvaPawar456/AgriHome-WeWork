@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TEst | Document</title>
+  </head>
+
+  <body>
+    
+    <div class="carousel">
+        <div id="Carousel_slide1" class="carousel-slide"><img src="/static/img/curry.jpg" alt="" srcset=""></div>
+        <div id="Carousel_slide2" class="carousel-slide hidden"><img src="/static/img/curry.jpg" alt="" srcset=""></div>
+        <div id="Carousel_slide3" class="carousel-slide hidden"><img src="/static/img/stew.jpg" alt="" srcset=""></div>
+        <div id="Carousel_slide4" class="carousel-slide hidden"><img src="/static/img/curry.jpg" alt="" srcset=""></div>
+        <div id="Carousel_slide5" class="carousel-slide hidden"><img src="/static/img/noodles.jpg" alt="" srcset=""></div>
+        
+        <a id="prevBTN" class="carousel-control prev">&#8592;</a>
+        <a id="nextBTN" class="carousel-control next">&#8594;</a>
+      </div>
+      
+
+    <!-- <script src="/templates/index.js"></script> -->
+    <script>
+        const carouselSlides = [
+          document.querySelector('#Carousel_slide1'),
+          document.querySelector('#Carousel_slide2'),
+          document.querySelector('#Carousel_slide3'),
+          document.querySelector('#Carousel_slide4'),
+          document.querySelector('#Carousel_slide5')
+        ];
+      
+        const prevBtn = document.querySelector('#prevBTN');
+        const nextBtn = document.querySelector('#nextBTN');
+      
+        let currentSlide = 0;
+      
+        const showSlide = (slideIndex) => {
+          carouselSlides.forEach((slide, index) => {
+            if (index === slideIndex) {
+              slide.classList.remove('hidden');
+            } else {
+              slide.classList.add('hidden');
+            }
+          });
+        };
+      
+        const nextSlide = () => {
+          currentSlide++;
+          if (currentSlide >= carouselSlides.length) {
+            currentSlide = 0;
+          }
+          showSlide(currentSlide);
+        };
+      
+        const prevSlide = () => {
+          currentSlide--;
+          if (currentSlide < 0) {
+            currentSlide = carouselSlides.length - 1;
+          }
+          showSlide(currentSlide);
+        };
+      
+        prevBtn.addEventListener('click', () => {
+          prevSlide();
+        });
+      
+        nextBtn.addEventListener('click', () => {
+          nextSlide();
+        });
+      
+        setInterval(() => {
+          nextSlide();
+        }, 1000); // Change slide every 10 seconds
+      </script>
+      
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{% extends "layoutproduct.html" %} {% block body %}
+
+<body class="bg-gray-100">
+  <div class="flex justify-center items-center min-h-screen">
+    <div class="max-w-md bg-white p-8 shadow-md rounded-md">
+      <h2 class="text-2xl font-bold mb-4">Payment Status</h2>
+      <!-- Successful Payment -->
+      <!-- <div class="mb-6">
+        <h3 class="text-lg font-bold mb-2 text-green-500">
+          Payment Successful
+        </h3>
+        <p class="text-gray-600">
+          Thank you for your payment. Your transaction was successful.
+        </p>
+      </div> -->
+      <!-- Unsuccessful Payment -->
+      <!-- Uncomment the code below to display the unsuccessful payment section -->
+      <div class="mb-6">
+                <h3 class="text-lg font-bold mb-2 text-red-500">Payment Unsuccessful</h3>
+                <p class="text-gray-600">We're sorry, but your payment was unsuccessful. Please try again later.</p>
+            </div>
+      <a href="/home" class="block text-center text-blue-500 hover:text-blue-700"
+        >Go back to homepage</a
+      >
+    </div>
+  </div>
+</body>
+
+{% endblock %}

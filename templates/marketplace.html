@@ -1,0 +1,105 @@
+{% extends "layoutproduct.html" %} {% block body %}
+<!-- <header
+  class="masthead"
+  style="background-image: url('{{ url_for('static', filename='assets/img/home-bg.jpg') }}')"
+> -->
+  <div class="m-10">
+    <header><h2 class="text-gray-700 text-2xl font-semibold text-center">Market Place</h2></header>
+    <div class="relative inline-block">
+      <button
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none"
+        id="dropdown-btn" onclick="toggleCatMenu()">
+        Categories
+      </button>
+      <div class="absolute hidden bg-white rounded shadow-md mt-2 py-2 w-200 flex" id="dropdown-menu">
+        <a href="#section1" onclick="scrollToSection('section1')" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Seeds and Plant Materials</a>
+        <a href="#section2" onclick="scrollToSection('section2')" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Gardening Supplies</a>
+        <a href="#section3" onclick="scrollToSection('section3')" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Farming Equipment</a>
+        <a href="#section4" onclick="scrollToSection('section4')" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Organic and Natural Products</a>
+        <a href="#section5" onclick="scrollToSection('section5')" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Farming Services</a>
+        <a href="#section6" onclick="scrollToSection('section6')" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Education and Resources</a>
+      </div>
+    </div>
+
+    <div class="mt-40">
+
+      <!-- section 1  -->
+      <h4 id="section1" class="font-bold mt-12 pb-2 border-b border-gray-200 text-blue-600 text-2xl">Seeds and Plant Materials</h4>
+      <div class="mt-8 grid lg:grid-cols-6 md:grid-cols-4 gap-10">
+        <!-- Cards go here -->
+        {% for element in data[1] %}
+        <a href="/singleproduct?productslug={{  element[5] }}">
+          <div class="bg-white relative hover:shadow-lg">
+            <div class="max-w-sm rounded overflow-hidden shadow-md">
+              <img class="w-full h-auto md:max-h-60 transition-transform duration-300 transform hover:scale-110" src="{{ url_for('static', filename= element[2]) }}" alt="Image">
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">{{ element[1] }}</div>
+                <p class="text-gray-700 text-base text-sm">Category: {{  element[4] }}</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+
+      <!-- section 2  -->
+      <h4 id="section2" class="font-bold mt-12 pb-2 border-b border-gray-200 text-blue-600 text-2xl">Gardening Supplies</h4>
+      <div class="mt-8 grid lg:grid-cols-6 md:grid-cols-4 gap-10">
+        <!-- Cards go here -->
+        {% for element in data[2] %}
+        <a href="/singleproduct?productslug={{  element[5] }}">
+          <div class="bg-white relative hover:shadow-lg">
+            <div class="max-w-sm rounded overflow-hidden shadow-md">
+              <img class="w-full h-auto md:max-h-60 transition-transform duration-300 transform hover:scale-110" src="{{ url_for('static', filename= element[2]) }}" alt="Image">
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">{{ element[1] }}</div>
+                <p class="text-gray-700 text-base text-sm">Category: {{  element[4] }}</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+
+      <!-- section 3  -->
+      <h4 id="section3" class="font-bold mt-12 pb-2 border-b border-gray-200 text-blue-600 text-2xl">Farming Equipment</h4>
+      <div class="mt-8 grid lg:grid-cols-4 md:grid-cols-2 gap-10">
+        <!-- Cards go here -->
+        {% for element in data[2] %}
+        <a href="/singleproduct?productslug={{  element[5] }}">
+          <div class="bg-white relative hover:shadow-lg">
+            <div class="max-w-sm rounded overflow-hidden shadow-md">
+              <img class="w-full h-auto md:max-h-60 transition-transform duration-300 transform hover:scale-110" src="{{ url_for('static', filename= element[2]) }}" alt="Image">
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">{{ element[1] }}</div>
+                <p class="text-gray-700 text-base text-sm">Category: {{  element[4] }}</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+
+
+
+
+
+      <!-- <div class="sticky bottom-0 bg-white py-4 px-8">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          Stick me to the bottom!
+        </button>
+      </div>
+
+      <a href="/productpage">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded items-center">
+          See Product List
+        </button>
+      </a> -->
+
+
+
+    <!-- all card ends -->
+    </div>
+  </div>
+</header>
+{% endblock %}
